@@ -174,7 +174,7 @@
         private void ValidateInput()
         {
             if (InclusiveMin >= InclusiveMax) 
-                throw new ArgumentException("The max must be larger than the min");
+                throw new ArgumentException("The max must be larger than the min " + InclusiveMin + ":" + InclusiveMax);
             if (WeightedTowards < InclusiveMin || WeightedTowards > InclusiveMax) 
                 throw new ArgumentException("The weight must be contained within the range of values");
             if(Granularity < 10 || Granularity > 100)

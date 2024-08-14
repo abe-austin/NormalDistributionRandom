@@ -5,6 +5,23 @@
     <TargetFramework>net6.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <Title>Normal Distribution Random</Title>
+    <Company>LonelyStep</Company>
+    <Authors>Abe Austin</Authors>
+    <Description>A random number generator that allows the user to weight the results towards certain values across a normal distribution.</Description>
+    <Copyright>None</Copyright>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <RepositoryUrl>https://github.com/abe-austin/NormalDistributionRandom.git</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageTags>random;normal distribution;bell curve;distributed random</PackageTags>
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
 
 </Project>
